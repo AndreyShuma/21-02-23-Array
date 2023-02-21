@@ -1,0 +1,9 @@
+.wrapper {
+  max-width: 900px;
+  margin: 50px auto;
+}
+.wrapper .render {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
