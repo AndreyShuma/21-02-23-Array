@@ -7,7 +7,7 @@ const btnClear = document.querySelector('.btnClear');
 const choice = document.querySelector('select[name="choice"]');
 // const optionMy = document.querySelector('option[value="man"]');
 // console.log(document.forms);
-console.log(choice);
+// console.log(choice);
 // console.log(optionMy);
 
 let result =[];
@@ -16,6 +16,7 @@ const arrPush = () => {
     let a = input.value;
     let html = `<div>${a}</div>`;
     result.push(html);
+    input.value = '';
     return render.innerHTML = result.join('');
 }
 
@@ -31,3 +32,4 @@ choice.addEventListener('change', () => {
     let c = `Hello ${choice.value}`
     console.log(c);
 });
+// console.dir(input);
