@@ -17,11 +17,13 @@ const arrPush = () => {
     let html = `<div>${a}</div>`;
     result.push(html);
     input.value = '';
+    // a = '';
     return render.innerHTML = result.join('');
 }
 
 const arrClear = () => {
     result = [];
+    input.value = '';
     return render.innerHTML = result;
 }
 
