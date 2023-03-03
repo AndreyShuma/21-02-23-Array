@@ -10,11 +10,12 @@
 </head>
 <body>
     <div class="wrapper"> Введіть свої особисті дані
+        <form action="" method="post">
         <input type="text" name="enterInput">
-        <button class="btnPush" type="button">Push</button>
-        <button class="btnClear" type="button">Clear</button>
+        <button class="btnPush" type="button" value="send">Push</button>
+        <button class="btnClear" type="button" >Clear</button>
         <br> <br>
-        <form action="">Введіть свою гендерну принадлежність 
+            <p>Введіть свою гендерну принадлежність </p> 
             <!-- <input type="text" name="enterInput"> -->
             <select name="choice">
                 <option value="null"></option>
@@ -24,10 +25,10 @@
         </form>
         <div class="render"></div>
         <div class="foto"></div>
-        <img src="" alt="" sizes="" srcset="" width="">
 
     </div>
+    <script src="./javaScript/data.js" type="module"></script>
     <script src="./javaScript/exmpal.js"></script>
-    <script src="./javaScript/main.js"></script>
+    <script src="./javaScript/main.js" defer type="module"></script>
 </body>
 </html>
